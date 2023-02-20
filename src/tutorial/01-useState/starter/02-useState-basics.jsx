@@ -6,6 +6,7 @@ const UseStateBasics = () => {
   //console.log(value);
 
   const [count, setCount] = useState(0);
+
   const handleClick = () => {
     setCount(count + 1);
   };
