@@ -5,6 +5,7 @@ const MultipleReturnsFetchData = () => {
   const [isLoading, setIsLoading] = useState(true);
   const [isError, setIsError] = useState(false);
   const [user, setUser] = useState(null);
+
   const fetchUser = async () => {
     try {
       const resp = await fetch(url);
